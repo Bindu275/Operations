@@ -14,5 +14,12 @@ public class operations {
         } else {
             System.out.println("Division by zero is not allowed.");
         }
+
+        // Square root and cube root calculations
+        System.out.println("Square root of " + num1 + ": " + Math.sqrt(num1));
+        System.out.println("Cube root of " + num1 + ": " + Math.cbrt(num1));
+
+        System.out.println("Square root of " + num2 + ": " + Math.sqrt(num2));
+        System.out.println("Cube root of " + num2 + ": " + Math.cbrt(num2));
     }
 }
